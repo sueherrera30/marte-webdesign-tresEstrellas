@@ -1,13 +1,20 @@
-	/*seccion nav bar*/
+/*seccion nav bar*/
 
-.btn-light:hover {
-	border-color: red;
-	background-color: transparent;
-}
-
-.bg-light {
+.navbar-expand-lg.bg-light {
 	height: 120px;
 	border-bottom: solid red;
+}
+
+.navbar-expand-lg .btn{
+	background-color:transparent;
+	border-color: transparent;
+}
+
+ .btn-light:hover{
+	border-color:red;
+}
+ .navbar-expand-lg{
+	background-image:url(../assets/img/images-about-texture-on-pinterest-white-wood-and-fabric-textures_interior-wall-textures_indoor-decorating-ideas-interior-decorator-designer-designes-looking-for-house-plans-decorati_1080x72.jpg);	
 }
 
 .navbar-nav li {
@@ -18,6 +25,10 @@
 	margin-top: 55%;
 }
 
+.logo_img {
+	z-index: 99999;
+}
+
 @media only screen and (max-width: 1100px) {
 	.container_img_logo img {
 		margin-top: 0%;
@@ -26,50 +37,141 @@
 		height: 30%;
 	}
 }
-	/*termian seccion navbar*/
-	/*seccion carousel*/
+
+
+/*termian seccion navbar*/
+
+
+/*seccion carousel*/
+
+.carousel-indicators>li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: aliceblue;
+	margin-bottom: 10%;
+}
+
+.carousel-indicators .active {
+	background-color: red;
+}
+
+.carousel-inner .carousel-caption {
+	font-family: 'Lato', sans-serif;
+	padding: 5%;
+}
+
+.instrucciones_contenedor span h3 {
+	font-size: 50%;
+	display: inline;
+}
+
+.instrucciones_contenedor {
+	margin: 5%;
+}
+
+.carousel-caption .btn-danger {
+	font-family: 'Lato', sans-serif;
+	border-radius: 20px;
+	width: 30%;
+	background-color: red;
+	display: block;
+	margin: 5%;
+}
+
+div .carousel-caption {
+	margin-bottom: 15%;
+}
+
+.icono_carousel_contenedor {
+	width: 100%;
+	height: 100%;
+}
+
+.icono_carousel_contenedor img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	padding: 6%;
+}
+
+.texting-white {
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
 	.carousel-indicators>li {
-		width: 10px;
-		height: 10px;
-		border-radius: 50%;
-		background-color: aliceblue;
-	}
-	.carousel-indicators .active {
-		background-color: red;
-	}
-	.carousel-inner .carousel-caption {
-		font-family: 'Lato', sans-serif;
-		padding: 5%;
-	}
-	.instrucciones_contenedor span h3 {
-		font-family: 'Lato', sans-serif;
-		font-size: 50%;
-		display: inline;
-	}
-	
-	.instrucciones_contenedor{
-		margin: 5%;
-	}
-	
-	.btn-danger{
-		font-family: 'Lato', sans-serif;
-		border-radius: 20px;
-		width: 30%;
-		background-color: red;
-		display: block;
-		margin: 5%;
-	}
-	
-	.carousel-item .carousel-caption{
-		margin-bottom:10%;
-	}
-	
-	
-	
-	
-	@media only screen and (max-width: 600px) {
-		.carousel-indicators>li {width: 5%;
+		width: 5%;
 		height: 5%;
 	}
-	}
-	/*termina carousel*/
+}
+
+
+/*termina carousel*/
+
+
+/*seccion productos*/
+
+.pregunta-texto p {
+	font-family: 'Lato', sans-serif;
+	padding: 5%;
+}
+
+.pregunta-texto strong {
+	font-style: italic;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+
+.jumbotron {
+	width: 130px;
+	padding: 0.5rem 0.5rem;
+	margin: 0.5rem 0.5rem;
+	display: inline-block;
+}
+
+.jumbotron img {
+	width: 70%;
+	height: 100px;
+}
+
+.lead {
+	font-size: 0.8rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.jumbotron:hover {
+	border: solid red 0.5px;
+	width: 150px;
+	height: 190px;
+	padding-top: 2%;
+}
+
+.productos{
+   margin-bottom:10%;
+}
+
+/*termina seccion productos*/
+
+/*seccion recetas*/
+.background_texture{
+	background-image:url(../assets/img/images-about-texture-on-pinterest-white-wood-and-fabric-textures_interior-wall-textures_indoor-decorating-ideas-interior-decorator-designer-designes-looking-for-house-plans-decorati_1080x72.jpg);
+}
+
+.recetas_section p{
+  padding: 5%;
+  font-size:2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.recetas_section h6{
+	color: gray;
+	font-family: 'Lato', sans-serif;
+}
+
+.recetas_section .btn{
+	margin:1%;
+}
+
+
+/*seccion recetas*/
