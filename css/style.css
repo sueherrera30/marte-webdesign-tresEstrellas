@@ -1,3 +1,11 @@
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+
 /*seccion nav bar*/
 
 .navbar-expand-lg.bg-light {
@@ -5,16 +13,17 @@
 	border-bottom: solid red;
 }
 
-.navbar-expand-lg .btn{
-	background-color:transparent;
+.navbar-expand-lg .btn {
+	background-color: transparent;
 	border-color: transparent;
 }
 
- .btn-light:hover{
-	border-color:red;
+.btn-light:hover {
+	border-color: red;
 }
- .navbar-expand-lg{
-	background-image:url(../assets/img/images-about-texture-on-pinterest-white-wood-and-fabric-textures_interior-wall-textures_indoor-decorating-ideas-interior-decorator-designer-designes-looking-for-house-plans-decorati_1080x72.jpg);	
+
+.navbar-expand-lg {
+	background-image: url(../assets/img/images-about-texture-on-pinterest-white-wood-and-fabric-textures_interior-wall-textures_indoor-decorating-ideas-interior-decorator-designer-designes-looking-for-house-plans-decorati_1080x72.jpg);
 }
 
 .navbar-nav li {
@@ -36,6 +45,24 @@
 		width: 30%;
 		height: 30%;
 	}
+}
+
+.icons_nav .fa {
+	display: inline;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+.icons_nav .fa-facebook-square {
+	color: darkblue;
+}
+
+.icons_nav .fa-twitter-square {
+	color: deepskyblue;
+}
+
+.icons_nav .fa-pinterest {
+	color: firebrick;
 }
 
 
@@ -147,31 +174,97 @@ div .carousel-caption {
 	padding-top: 2%;
 }
 
-.productos{
-   margin-bottom:10%;
+.productos {
+	margin-bottom: 10%;
 }
+
 
 /*termina seccion productos*/
 
+
 /*seccion recetas*/
-.background_texture{
-	background-image:url(../assets/img/images-about-texture-on-pinterest-white-wood-and-fabric-textures_interior-wall-textures_indoor-decorating-ideas-interior-decorator-designer-designes-looking-for-house-plans-decorati_1080x72.jpg);
+
+.background_texture {
+	background-image: url(../assets/img/images-about-texture-on-pinterest-white-wood-and-fabric-textures_interior-wall-textures_indoor-decorating-ideas-interior-decorator-designer-designes-looking-for-house-plans-decorati_1080x72.jpg);
+	padding: 3%;
 }
 
-.recetas_section p{
-  padding: 5%;
-  font-size:2rem;
-  font-family: 'Lato', sans-serif;
+.recetas_section p {
+	padding: 5%;
+	font-size: 2rem;
+	font-family: 'Lato', sans-serif;
 }
 
-.recetas_section h6{
+.recetas_section h6 {
 	color: gray;
 	font-family: 'Lato', sans-serif;
 }
 
-.recetas_section .btn{
-	margin:1%;
+.recetas_section .btn {
+	margin: 1%;
+}
+
+.recipes_container {
+	padding: 7%;
+}
+
+.info_container {
+	background-color: #e32d2d;
+	padding: 2%;
+}
+
+.info_container p {
+	color: wheat;
+	margin-top: 8%;
+}
+
+.info_container .input-group {
+	margin-top: 8%;
+}
+
+.form-control {
+	border: none;
+}
+
+.fa-envelope {
+	color: #e8de64;
+}
+
+button.btn.btn-secondary {
+	background-color: white;
+	border: none;
+}
+
+button.btn.btn-warning {
+	margin-top: 8%;
+	color: white;
+}
+
+.contact_section {
+	margin: 5%;
 }
 
 
-/*seccion recetas*/
+/*termina seccion recetas*/
+
+.contact_section li {
+	list-style: none;
+	padding: 2%;
+	color: gray;
+}
+
+.second_list {
+	margin-top: 15%;
+}
+
+.contact li {
+	color: gray;
+}
+
+.contact h6 {
+	margin-left: 15%;
+}
+
+button.btn.btn-danger {
+	background-color: red;
+}
